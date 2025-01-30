@@ -2,6 +2,7 @@ body{
     height:fit-content;
     background: linear-gradient(0deg, beige 0%, #e6e2d3 100%);
     display: flex;
+    flex-direction: column;
 }
 
 #panel{
@@ -13,6 +14,12 @@ body{
     position: fixed;
     justify-content:left;
     align-content: center;
+    transition-duration: 0.3s;
+}
+
+#panel:hover{
+    opacity: 100;
+    transition-duration: 0.3s;
 }
 
 
@@ -20,12 +27,31 @@ body{
 .category{
     margin-left: 50px;
     margin-right: 50px;
-    margin-top: auto;
+    margin-top: 0.8%;
     margin-bottom: auto;
     font-weight: bolder;
+    text-decoration: none;
+    color: black;
 }
 
-#container{
+/*Wiggle Animation*/
+
+@keyframes wiggle {
+    0% {transform: rotate(0deg);}
+    80% {transform: rotate(0deg);}
+    85% {transform: rotate(5deg);}
+    95% {transform: rotate(-5deg);}
+    100% {transform: rotate(0deg);}
+}
+
+.category{
+    display: inline-block;
+    animation: wiggle 1.5s infinite;
+}
+
+
+
+#containerOne{
     margin: 0;
     padding: 0;
     width: 100%;
@@ -35,15 +61,77 @@ body{
     align-items:center;
 }
 
+#containerTwo{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+}
+
+#containerThree{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+}
+/*Container One*/
 @media only screen and (min-width: 1200px){
-    #container{
+    #containerOne{
         height: 937px;
     }
 }
 
 @media only screen and (max-width: 1200px){
-    #container{
+    #containerOne{
         height: 937px;
+    }
+}
+
+@media only screen and (min-width: 1080px){
+    #containerOne{
+        height: 910px;
+    }
+}
+/*Container Two*/
+@media only screen and (min-width: 1200px){
+    #containerTwo{
+        height: 937px;
+    }
+}
+
+@media only screen and (max-width: 1200px){
+    #containerTwo{
+        height: 937px;
+    }
+}
+
+@media only screen and (min-width: 1080px){
+    #containerTwo{
+        height: 910px;
+    }
+}
+/*Container Three*/
+@media only screen and (min-width: 1200px){
+    #containerThree{
+        height: 937px;
+    }
+}
+
+@media only screen and (max-width: 1200px){
+    #containerThree{
+        height: 937px;
+    }
+}
+
+@media only screen and (min-width: 1080px){
+    #containerThree{
+        height: 910px;
     }
 }
 
@@ -64,3 +152,22 @@ body{
     transition-duration: 0.5s;
 }
 
+html{
+    scroll-behavior: smooth;
+    overflow: hidden;
+}
+
+/*Making the expanding*/
+
+#buttonOne.fullscreen{
+    z-index: 9999;
+    width: 100%;
+    height: 100%;
+    position:fixed;
+    top: auto;
+    border-radius: 0;
+}
+
+#buttonOne.fullscreen .title{
+    visibility:hidden;
+}
