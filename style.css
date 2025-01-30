@@ -1,5 +1,5 @@
 body{
-    height:fit-content;
+    height: fit-content;
     background: linear-gradient(0deg, beige 0%, #e6e2d3 100%);
     display: flex;
     flex-direction: column;
@@ -80,58 +80,143 @@ body{
     justify-content: space-around;
     align-items:center;
 }
+
+/*Overall*/
+@media only screen and (max-width: 420px){
+    #panel{
+        flex-direction: column;
+        height: fit-content;
+        width: 15%;
+    }
+
+    #panel a{
+        margin-left: 0;
+    }
+}
+
+
 /*Container One*/
-@media only screen and (min-width: 1200px){
-    #containerOne{
-        height: 937px;
-    }
-}
 
-@media only screen and (max-width: 1200px){
-    #containerOne{
-        height: 937px;
-    }
-}
-
-@media only screen and (min-width: 1080px){
+@media only screen and (min-width: 1920px){
     #containerOne{
         height: 910px;
     }
 }
+
+@media only screen and (max-width: 1920px){
+    #containerOne{
+        height: 910px;
+    }
+}
+
+@media only screen and (max-width: 1283px){
+    #containerOne{
+        flex-direction: column;
+        margin-top: 10%;
+    }
+}
+
+@media only screen and (max-width: 500px){
+    #containerOne{
+        margin-top: 20%;
+    }
+    
+    #containerOne .buttons{
+        border-radius: 0%;
+    }
+
+    #containerOne .year{
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 360px){
+    #containerOne .buttons{
+        width: auto;
+    }
+}
+
+
+
 /*Container Two*/
-@media only screen and (min-width: 1200px){
-    #containerTwo{
-        height: 937px;
-    }
-}
 
-@media only screen and (max-width: 1200px){
-    #containerTwo{
-        height: 937px;
-    }
-}
-
-@media only screen and (min-width: 1080px){
+@media only screen and (min-width: 1920px){
     #containerTwo{
         height: 910px;
     }
 }
+
+@media only screen and (max-width: 1920px){
+    #containerTwo{
+        height: 910px;
+    }
+}
+
+@media only screen and (max-width: 1283px){
+    #containerTwo{
+        flex-direction: column;
+    }
+}
+
+@media only screen and (max-width: 500px){
+    #containerTwo{
+        margin-top: 20%;
+    }
+    
+    #containerTwo .buttons{
+        border-radius: 0%;
+    }
+
+    #containerTwo .year{
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 360px){
+    #containerTwo .buttons{
+        width: auto;
+    }
+}
+
 /*Container Three*/
-@media only screen and (min-width: 1200px){
-    #containerThree{
-        height: 937px;
-    }
-}
 
-@media only screen and (max-width: 1200px){
-    #containerThree{
-        height: 937px;
-    }
-}
 
-@media only screen and (min-width: 1080px){
+@media only screen and (min-width: 1920px){
     #containerThree{
         height: 910px;
+    }
+}
+
+@media only screen and (max-width: 1920px){
+    #containerThree{
+        height: 910px;
+    }
+}
+
+@media only screen and (max-width: 1283px){
+    #containerThree{
+        flex-direction: column;
+        margin-top: 10%;
+    }
+}
+
+@media only screen and (max-width: 500px){
+    #containerThree{
+        margin-top: 20%;
+    }
+    
+    #containerThree .buttons{
+        border-radius: 0%;
+    }
+
+    #containerThree .year{
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 360px){
+    #containerThree .buttons{
+        width: auto;
     }
 }
 
@@ -160,11 +245,12 @@ html{
 /*Making the expanding*/
 
 #buttonOne.fullscreen{
-    z-index: 9999;
-    width: 100%;
-    height: 100%;
-    position:fixed;
-    top: auto;
+    z-index: 9999; 
+    width: 100vw; 
+    height: 100vh; 
+    position: fixed; 
+    top: 0; 
+    left: 0; 
     border-radius: 0;
 }
 
