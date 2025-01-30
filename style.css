@@ -1,0 +1,29 @@
+body{
+    height:fit-content;
+    background: linear-gradient(0deg, beige 0%, #e6e2d3 100%);
+    display: flex;
+}
+
+#panel{
+    width: 100%;
+    height: 50px;
+    background-color: #b9936c;
+    opacity: 0.5;
+    display: flex;
+    position: fixed;
+    justify-content:left;
+    align-content: center;
+}
+
+.category{
+    margin-left: 50px;
+    margin-right: 50px;
+    font-weight: bolder;
+}
+
+#eleven{
+    margin: auto;
+    width: 500px;
+    height: 300px;
+    background-color: #dac292;
+}
