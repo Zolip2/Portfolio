@@ -8,13 +8,16 @@ $('#elektro').click(function(){
     pageStatus = 1;
     pic = 1;
     $('#pic').attr("src", "../Képek/11.évfolyam/A/Elektrotechnika/1736854061254.jpg");
-    console.log(pageStatus);
+    $('#elektro').css('color', 'darkred');
+    $('#micro').css('color', 'black');
 });
 
 $('#micro').click(function(){
     pageStatus = 2;
     pic = 8;
     $('#pic').attr("src", "../Képek/11.évfolyam/A/Mikrovezérlő programozás/IMG_20250107_194437_1.jpg");
+    $('#micro').css('color', 'darkred');
+    $('#elektro').css('color', 'black');
 });
 
 
@@ -125,7 +128,6 @@ $('#left').click(function(){
 });
 //Back button
 $('#back').click(function(){
-    //$('body').css("animation", "fadeOut");
     $('#transition').animate({"height": "100vh"}, 1000);
     setTimeout(function(){
         window.location.replace('../index.html');
