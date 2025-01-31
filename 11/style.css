@@ -1,4 +1,6 @@
 body{
+    margin: 0;
+    padding: 0;
     background-color: #dac292;
     opacity: 0;
     animation: fadeIn 1s forwards;
@@ -8,4 +10,87 @@ body{
     to{
         opacity: 1;
     }
+}
+
+@keyframes fadeOut{
+    to{
+        opacity: 0;
+    }
+}
+
+#panel{
+    width: 100%;
+    height: 50px;
+    background-color: #b9936c;
+    opacity: 0.5;
+    display: flex;
+    position: fixed;
+    justify-content:left;
+    align-content: center;
+    transition-duration: 0.3s;
+}
+
+#panel:hover{
+    opacity: 100;
+    transition-duration: 0.3s;
+}
+
+.category{
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 0.8%;
+    margin-bottom: auto;
+    font-weight: bolder;
+    text-decoration: none;
+    color: black;
+}
+
+@keyframes wiggle {
+    0% {transform: rotate(0deg);}
+    80% {transform: rotate(0deg);}
+    85% {transform: rotate(5deg);}
+    95% {transform: rotate(-5deg);}
+    100% {transform: rotate(0deg);}
+}
+
+.category{
+    display: inline-block;
+    animation: wiggle 1.5s infinite;
+}
+
+img{
+}
+
+#container{
+    padding: 0;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    
+}
+
+#display{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-self: center;
+    padding: 0;
+    margin: 0;
+    width: 800px;
+    height: 400px;
+}
+
+#left{
+    rotate: 180deg;
+}
+
+html{
+    overflow: hidden;
+}
+
+#transition{
+    background-color: #e6e2d3;
+    width: 100%;
+    
 }
