@@ -279,3 +279,31 @@ html{
 #buttonTwo.fullscreen .title{
     visibility:hidden;
 }
+
+#buttonThree.fullscreen{
+    z-index: 9999; 
+    width: 100vw; 
+    height: 100vh; 
+    position: fixed; 
+    top: 0; 
+    left: 0; 
+    border-radius: 0;
+}
+
+#buttonThree.fullscreen .title{
+    visibility:hidden;
+}
+
+#buttonFour.fullscreen{
+    z-index: 9999; 
+    width: 100vw; 
+    height: 100vh; 
+    position: fixed; 
+    top: 0; 
+    left: 0; 
+    border-radius: 0;
+}
+
+#buttonFour.fullscreen .title{
+    visibility:hidden;
+}

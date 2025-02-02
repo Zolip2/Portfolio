@@ -16,12 +16,12 @@ $('document').ready(function(){
             var aspectRatio = width / height;
 
             if(width >height){
-                $(this).width(maxWidth);
-                $(this).heoght(maxWidth / aspectRatio);
+                //$(this).width(maxWidth);
+                //$(this).heoght(maxWidth / aspectRatio);
             }
             else{
-                $(this).height(height);
-                $(this).height(height * aspectRatio);
+                //$(this).height(height);
+                //$(this).height(height * aspectRatio);
             }
         }
 
@@ -49,6 +49,7 @@ $('#dig').click(function(){
 $('#right').click(function(){
     if(pageStatus === 1){
         console.log(pageStatus);
+        $('#display').css('height', '450px');
         pic += 1;
         if(pic == 1){
             $('#pic').attr("src", "../Képek/11.évfolyam/B/Programozás alapjai/addingContent.png");
@@ -58,6 +59,7 @@ $('#right').click(function(){
         }
         else if(pic == 3){
             $('#pic').attr("src", "../Képek/11.évfolyam/B/Programozás alapjai/savingDocument.png");
+            $('#display').css('height', '100px');
         }
         else if(pic == 4){
             $('#pic').attr("src", "../Képek/11.évfolyam/B/Programozás alapjai/template.png");
@@ -101,6 +103,7 @@ $('#right').click(function(){
 $('#left').click(function(){
     if(pageStatus === 1){
         console.log(pageStatus);
+        $('#display').css('height', '450px');
         pic -= 1;
         if(pic == 1){
             $('#pic').attr("src", "../Képek/11.évfolyam/B/Programozás alapjai/addingContent.png");
@@ -110,6 +113,7 @@ $('#left').click(function(){
         }
         else if(pic == 3){
             $('#pic').attr("src", "../Képek/11.évfolyam/B/Programozás alapjai/savingDocument.png");
+            $('#display').css('height', '100px');
         }
         else if(pic == 4){
             $('#pic').attr("src", "../Képek/11.évfolyam/B/Programozás alapjai/template.png");
