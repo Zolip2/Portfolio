@@ -224,11 +224,11 @@ $('#left').click(function(){
             $('#pic').attr("src", "../Képek/12.évfolyam/A/Hálózatkezelés/WirelessSSIDCode.png");
         }
     }
-    if(pic == 0){
+    if(pic == 0 && pageStatus == 1){
         pic = 12;
         $('#pic').attr("src", "../Képek/12.évfolyam/A/Adatbáziskezelés alapjai/SzenzortipusTábla.png");
     }
-    else if(pic == 7){
+    else if(pic == 7 && pageStatus == 2){
         pic = 17;
         $('#pic').attr("src", "../Képek/12.évfolyam/A/Hálózatkezelés/WirelessSSIDCode.png");
     }
