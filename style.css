@@ -307,3 +307,31 @@ html{
 #buttonFour.fullscreen .title{
     visibility:hidden;
 }
+
+#buttonFive.fullscreen{
+    z-index: 9999; 
+    width: 100vw; 
+    height: 100vh; 
+    position: fixed; 
+    top: 0; 
+    left: 0; 
+    border-radius: 0;
+}
+
+#buttonFive.fullscreen .title{
+    visibility:hidden;
+}
+
+#buttonSix.fullscreen{
+    z-index: 9999; 
+    width: 100vw; 
+    height: 100vh; 
+    position: fixed; 
+    top: 0; 
+    left: 0; 
+    border-radius: 0;
+}
+
+#buttonSix.fullscreen .title{
+    visibility:hidden;
+}

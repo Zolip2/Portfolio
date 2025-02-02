@@ -33,3 +33,21 @@ $('#buttonFour').click(function(e){
     }, 2000)
    
 });
+
+$('#buttonFive').click(function(e){
+    $('#buttonFive').toggleClass('fullscreen');
+    $('#buttonFive').unbind('click');
+    setTimeout(function(){
+        window.location.replace("13A/13.html").delay(500);
+    }, 2000)
+   
+});
+
+$('#buttonSix').click(function(e){
+    $('#buttonSix').toggleClass('fullscreen');
+    $('#buttonSix').unbind('click');
+    setTimeout(function(){
+        window.location.replace("13B/13.html").delay(500);
+    }, 2000)
+   
+});
