@@ -68,22 +68,22 @@ $('#right').click(function(){
             $('#pic').attr("src", "../Képek/13.évfolyam/B/Robottechnikai CADCAM/chip.png");
         }
         else if(pic == 9){
-            $('#pic').attr("src", "../Képek/13.évfolyam/A/Munkavállalói idegen nyelv/led.png");
+            $('#pic').attr("src", "../Képek/13.évfolyam/B/Robottechnikai CADCAM/led.png");
         }
         else if(pic == 10){
-            $('#pic').attr("src", "../Képek/13.évfolyam/A/Munkavállalói idegen nyelv/microphone.png");
+            $('#pic').attr("src", "../Képek/13.évfolyam/B/Robottechnikai CADCAM/microphone.png");
         }
         else if(pic == 11){
-            $('#pic').attr("src", "../Képek/13.évfolyam/A/Munkavállalói idegen nyelv/top.png");
+            $('#pic').attr("src", "../Képek/13.évfolyam/B/Robottechnikai CADCAM/top.png");
         }
         else if(pic == 12){
-            $('#pic').attr("src", "../Képek/13.évfolyam/A/Munkavállalói idegen nyelv/whole_circuit.png");
+            $('#pic').attr("src", "../Képek/13.évfolyam/B/Robottechnikai CADCAM/whole_circuit.png");
         }
     }
 
     if(pic == 11 && pageStatus == 1){
         pic = 1;
-        $$('#pic').attr("src", "../Képek/13.évfolyam/B/Programfejlesztés/AddLocationCode.png");
+        $('#pic').attr("src", "../Képek/13.évfolyam/B/Programfejlesztés/AddLocationCode.png");
     }
     else if(pic == 13 && pageStatus == 2){
         pic = 8;
@@ -139,16 +139,16 @@ $('#left').click(function(){
             $('#pic').attr("src", "../Képek/13.évfolyam/B/Robottechnikai CADCAM/chip.png");
         }
         else if(pic == 9){
-            $('#pic').attr("src", "../Képek/13.évfolyam/A/Munkavállalói idegen nyelv/led.png");
+            $('#pic').attr("src", "../Képek/13.évfolyam/B/Robottechnikai CADCAM/led.png");
         }
         else if(pic == 10){
-            $('#pic').attr("src", "../Képek/13.évfolyam/A/Munkavállalói idegen nyelv/microphone.png");
+            $('#pic').attr("src", "../Képek/13.évfolyam/B/Robottechnikai CADCAM/microphone.png");
         }
         else if(pic == 11){
-            $('#pic').attr("src", "../Képek/13.évfolyam/A/Munkavállalói idegen nyelv/top.png");
+            $('#pic').attr("src", "../Képek/13.évfolyam/B/Robottechnikai CADCAM/top.png");
         }
         else if(pic == 12){
-            $('#pic').attr("src", "../Képek/13.évfolyam/A/Munkavállalói idegen nyelv/whole_circuit.png");
+            $('#pic').attr("src", "../Képek/13.évfolyam/B/Robottechnikai CADCAM/whole_circuit.png");
         }
     }
     if(pic == 0 && pageStatus == 1){
@@ -157,7 +157,7 @@ $('#left').click(function(){
     }
     else if(pic == 7 && pageStatus == 2){
         pic = 12;
-        ('#pic').attr("src", "../Képek/13.évfolyam/A/Munkavállalói idegen nyelv/whole_circuit.png");
+        $('#pic').attr("src", "../Képek/13.évfolyam/B/Robottechnikai CADCAM/whole_circuit.png");
     }
 });
 //Back button
