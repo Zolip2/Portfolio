@@ -42,7 +42,7 @@ $('#plc').click(function(){
 $('#szim').click(function(){
     pageStatus = 2;
     pic = 8;
-    $('#pic').attr("src", "../Képek/12.évfolyam/B/Számítógépes szimuláció/.png");
+    $('#pic').attr("src", "../Képek/12.évfolyam/B/Számítógépes szimuláció/555.jpg");
     $('#szim').css('color', 'darkred');
     $('#plc').css('color', 'black');
 });
@@ -85,34 +85,16 @@ $('#right').click(function(){
         pic += 1;
         $('#display').css('height', '450px');
         if(pic == 8){
-            $('#pic').attr("src", "../Képek/12.évfolyam/B/Számítógépes szimuláció/.png");
+            $('#pic').attr("src", "../Képek/12.évfolyam/B/Számítógépes szimuláció/555.jpg");
         }
         else if(pic == 9){
-            $('#pic').attr("src", "../Képek/12.évfolyam/B/Számítógépes szimuláció/.png");
+            $('#pic').attr("src", "../Képek/12.évfolyam/B/Számítógépes szimuláció/555cucc.png");
         }
         else if(pic == 10){
-            $('#pic').attr("src", "../Képek/12.évfolyam/B/Számítógépes szimuláció/.png");
+            $('#pic').attr("src", "../Képek/12.évfolyam/B/Számítógépes szimuláció/circuit.png");
         }
         else if(pic == 11){
-            $('#pic').attr("src", "../Képek/12.évfolyam/B/Számítógépes szimuláció/.png");
-        }
-        else if(pic == 12){
-            $('#pic').attr("src", "../Képek/12.évfolyam/B/Számítógépes szimuláció/.png");
-        }
-        else if(pic == 13){
-            $('#pic').attr("src", "../Képek/12.évfolyam/B/Számítógépes szimuláció/.png");
-        }
-        else if(pic == 14){
-            $('#pic').attr("src", "../Képek/12.évfolyam/B/Számítógépes szimuláció/.png");
-        }
-        else if(pic == 15){
-            $('#pic').attr("src", "../Képek/12.évfolyam/B/Számítógépes szimuláció/.png");
-        }
-        else if(pic == 16){
-            $('#pic').attr("src", "../Képek/12.évfolyam/B/Számítógépes szimuláció/.png");
-        }
-        else if(pic == 17){
-            $('#pic').attr("src", "../Képek/12.évfolyam/B/Számítógépes szimuláció/.png");
+            $('#pic').attr("src", "../Képek/12.évfolyam/B/Számítógépes szimuláció/Falstad.png");
         }
     }
 
@@ -120,9 +102,9 @@ $('#right').click(function(){
         pic = 1;
         $('#pic').attr("src", "../Képek/12.évfolyam/B/PLC programozás/code1.png");
     }
-    else if(pic == 18 && pageStatus == 2){
+    else if(pic == 12 && pageStatus == 2){
         pic = 8;
-        $('#pic').attr("src", "../Képek/12.évfolyam/A/Hálózatkezelés/LANIPNetwork.png");
+        $('#pic').attr("src", "../Képek/12.évfolyam/B/Számítógépes szimuláció/555.jpg");
     }
 });
 
@@ -166,34 +148,16 @@ $('#left').click(function(){
         pic -= 1;
         $('#display').css('height', '450px');
         if(pic == 8){
-            $('#pic').attr("src", "../Képek/12.évfolyam/B/Számítógépes szimuláció/.png");
+            $('#pic').attr("src", "../Képek/12.évfolyam/B/Számítógépes szimuláció/555.jpg");
         }
         else if(pic == 9){
-            $('#pic').attr("src", "../Képek/12.évfolyam/B/Számítógépes szimuláció/.png");
+            $('#pic').attr("src", "../Képek/12.évfolyam/B/Számítógépes szimuláció/555cucc.png");
         }
         else if(pic == 10){
-            $('#pic').attr("src", "../Képek/12.évfolyam/B/Számítógépes szimuláció/.png");
+            $('#pic').attr("src", "../Képek/12.évfolyam/B/Számítógépes szimuláció/circuit.png");
         }
         else if(pic == 11){
-            $('#pic').attr("src", "../Képek/12.évfolyam/B/Számítógépes szimuláció/.png");
-        }
-        else if(pic == 12){
-            $('#pic').attr("src", "../Képek/12.évfolyam/B/Számítógépes szimuláció/.png");
-        }
-        else if(pic == 13){
-            $('#pic').attr("src", "../Képek/12.évfolyam/B/Számítógépes szimuláció/.png");
-        }
-        else if(pic == 14){
-            $('#pic').attr("src", "../Képek/12.évfolyam/B/Számítógépes szimuláció/.png");
-        }
-        else if(pic == 15){
-            $('#pic').attr("src", "../Képek/12.évfolyam/B/Számítógépes szimuláció/.png");
-        }
-        else if(pic == 16){
-            $('#pic').attr("src", "../Képek/12.évfolyam/B/Számítógépes szimuláció/.png");
-        }
-        else if(pic == 17){
-            $('#pic').attr("src", "../Képek/12.évfolyam/B/Számítógépes szimuláció/.png");
+            $('#pic').attr("src", "../Képek/12.évfolyam/B/Számítógépes szimuláció/Falstad.png");
         }
     }
     if(pic == 0 && pageStatus == 1){
@@ -201,8 +165,8 @@ $('#left').click(function(){
         $('#pic').attr("src", "../Képek/12.évfolyam/B/PLC programozás/gvl.png");
     }
     else if(pic == 7 && pageStatus == 2){
-        pic = 17;
-        $('#pic').attr("src", "../Képek/12.évfolyam/A/Hálózatkezelés/WirelessSSIDCode.png");
+        pic = 11;
+        $('#pic').attr("src", "../Képek/12.évfolyam/B/Számítógépes szimuláció/Falstad.png");
     }
 });
 //Back button
