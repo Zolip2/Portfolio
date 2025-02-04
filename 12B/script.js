@@ -108,7 +108,7 @@ $('#right').click(function(){
     }
 });
 
-
+//code
 
 
 $('#left').click(function(){
