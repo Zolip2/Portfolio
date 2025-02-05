@@ -228,6 +228,14 @@ body{
     #containerThree .buttons{
         width: auto;
     }
+
+    #buttonSeven{
+        display: flex;
+        flex-direction: column;
+        border-radius: 0%;
+        width: fit-content;
+        transition-duration: 0.3s;
+    }
 }
 
 .buttons{
