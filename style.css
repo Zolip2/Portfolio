@@ -142,7 +142,11 @@ body{
 
 @media only screen and (max-width: 360px){
     #containerOne .buttons{
-        width: auto;
+        width: 100vw;
+    }
+
+    #containerOne{
+        justify-content: start;
     }
 }
 
@@ -184,7 +188,11 @@ body{
 
 @media only screen and (max-width: 360px){
     #containerTwo .buttons{
-        width: auto;
+        width: 100vw;
+    }
+
+    #containerTwo{
+        justify-content: start;
     }
 }
 
@@ -213,6 +221,7 @@ body{
 @media only screen and (max-width: 500px){
     #containerThree{
         margin-top: 20%;
+        justify-content: start;
     }
     
     #containerThree .buttons{
@@ -226,7 +235,7 @@ body{
 
 @media only screen and (max-width: 360px){
     #containerThree .buttons{
-        width: auto;
+        width: 100vw;
     }
 
     #buttonSeven{
@@ -235,6 +244,12 @@ body{
         border-radius: 0%;
         width: fit-content;
         transition-duration: 0.3s;
+        height: fit-content;
+    }
+
+    #containerFour{
+        margin-bottom: 237px;
+        
     }
 }
 
