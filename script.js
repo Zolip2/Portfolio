@@ -51,3 +51,23 @@ $('#buttonSix').click(function(e){
     }, 2000)
    
 });
+
+$('#logo').click(function(e){
+    window.open("https://bankisuli.hu");
+});
+
+
+
+$('#4').click(function(){
+    $('#buttonSeven').css('display', 'flex');
+});
+
+$('#1').click(function(){
+    $('#buttonSeven').css('display', 'none');
+});
+$('#2').click(function(){
+    $('#buttonSeven').css('display', 'none');
+});
+$('#3').click(function(){
+    $('#buttonSeven').css('display', 'none');
+});
