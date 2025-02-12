@@ -176,3 +176,19 @@ $('#back').click(function(){
         window.location.replace('../index.html');
     }, 1000)
 });
+
+$('#fR').click(function(){
+    $('#fPopup').css("display", "flex")
+})
+
+$('#fPopup').click(function(){
+    $('#fPopup').css("display", "none")
+})
+
+$('#sR').click(function(){
+    $('#sPopup').css("display", "flex")
+})
+
+$('#sPopup').click(function(){
+    $('#sPopup').css("display", "none")
+})
