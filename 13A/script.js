@@ -160,5 +160,5 @@ $('#back').click(function(){
     $('#transition').animate({"height": "100vh"}, 1000);
     setTimeout(function(){
         window.location.replace('../index.html');
-    }, 2000)
+    }, 1000)
 });

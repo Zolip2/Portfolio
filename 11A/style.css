@@ -142,6 +142,9 @@ html{
 ul{
     list-style: none;
     text-align: center;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 50vw;
 }
 
 ul li{

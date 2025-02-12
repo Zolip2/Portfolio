@@ -3,7 +3,7 @@ $('#buttonOne').click(function(e){
     $('#buttonOne').unbind('click');
     setTimeout(function(){
         window.location.replace("11A/11.html").delay(500);
-    }, 2000)
+    }, 500)
    
 });
 
@@ -12,7 +12,7 @@ $('#buttonTwo').click(function(e){
     $('#buttonTwo').unbind('click');
     setTimeout(function(){
         window.location.replace("11B/11.html").delay(500);
-    }, 2000)
+    }, 500)
    
 });
 
@@ -21,7 +21,7 @@ $('#buttonThree').click(function(e){
     $('#buttonThree').unbind('click');
     setTimeout(function(){
         window.location.replace("12A/12.html").delay(500);
-    }, 2000)
+    }, 500)
    
 });
 
@@ -30,7 +30,7 @@ $('#buttonFour').click(function(e){
     $('#buttonFour').unbind('click');
     setTimeout(function(){
         window.location.replace("12B/12.html").delay(500);
-    }, 2000)
+    }, 500)
    
 });
 
@@ -39,7 +39,7 @@ $('#buttonFive').click(function(e){
     $('#buttonFive').unbind('click');
     setTimeout(function(){
         window.location.replace("13A/13.html").delay(500);
-    }, 2000)
+    }, 500)
    
 });
 
@@ -48,7 +48,7 @@ $('#buttonSix').click(function(e){
     $('#buttonSix').unbind('click');
     setTimeout(function(){
         window.location.replace("13B/13.html").delay(500);
-    }, 2000)
+    }, 500)
    
 });
 
