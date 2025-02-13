@@ -189,7 +189,7 @@ ul li:hover ul.dropdown{
     justify-content: center;
     align-items: center;
     background-color: rgba(0, 0, 0, 0.4);
-    
+    backdrop-filter: blur(10px);
 }
 
 #fPopupContent{
@@ -213,7 +213,7 @@ ul li:hover ul.dropdown{
     justify-content: center;
     align-items: center;
     background-color: rgba(0, 0, 0, 0.4);
-    
+    backdrop-filter: blur(10px);
 }
 
 #sPopupContent{
