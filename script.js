@@ -1,3 +1,8 @@
+const audio = new Audio('maxwell-the-cat-theme.mp3');
+
+
+
+
 $('#buttonOne').click(function(e){
     $('#buttonOne').toggleClass('fullscreen');
     $('#buttonOne').unbind('click');
@@ -70,4 +75,8 @@ $('#2').click(function(){
 });
 $('#3').click(function(){
     $('#buttonSeven').css('display', 'none');
+});
+
+$('#maxwell').click(function(){
+    audio.play();
 });
