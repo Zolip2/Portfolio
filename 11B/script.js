@@ -37,6 +37,7 @@ $('#prog').click(function(){
     $("#title").html("Dokumentum összeállítása sablon szerint");
     $('#prog').css('color', 'darkred');
     $('#dig').css('color', 'black');
+    $('#display').css('height', '450px');
 });
 
 $('#dig').click(function(){
@@ -47,6 +48,7 @@ $('#dig').click(function(){
     $("#title").html("Logikai kapcsolás");
     $('#dig').css('color', 'darkred');
     $('#prog').css('color', 'black');
+    $('#display').css('height', '450px');
 });
 
 $("#pic").click(function(){

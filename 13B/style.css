@@ -250,3 +250,19 @@ ul li:hover ul.dropdown{
     height: fit-content;
     opacity: 100%;
 }
+
+#titleBox{
+    top: 10%;
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    width: 100vw;
+    height: fit-content;
+    font-size: larger;
+}
+
+#title{
+    margin: 0;
+    padding: 0;
+}

@@ -39,6 +39,7 @@ $('#data').click(function(){
     $("#title").html("Gyárak tábla");
     $('#data').css('color', 'darkred');
     $('#hal').css('color', 'black');
+    $('#display').css('height', '450px');
 });
 
 $('#hal').click(function(){
@@ -49,6 +50,7 @@ $('#hal').click(function(){
     $("#title").html("Pécsi hálózat");
     $('#hal').css('color', 'darkred');
     $('#data').css('color', 'black');
+    $('#display').css('height', '450px');
 });
 
 $("#pic").click(function(){
@@ -129,7 +131,7 @@ $('#right').click(function(){
         if(pic == 8){
             $('#pic').attr("src", "../Képek/12.évfolyam/A/Hálózatkezelés/LANIPNetwork.png");
             $('#pPicture').attr("src", "../Képek/12.évfolyam/A/Hálózatkezelés/LANIPNetwork.png");
-            $("#title").html("");
+            $("#title").html("Pécsi hálózat");
         }
         else if(pic == 9){
             $('#pic').attr("src", "../Képek/12.évfolyam/A/Hálózatkezelés/LANWANIP.png");
@@ -192,7 +194,7 @@ $('#right').click(function(){
         pic = 8;
         $('#pic').attr("src", "../Képek/12.évfolyam/A/Hálózatkezelés/LANIPNetwork.png");
         $('#pPicture').attr("src", "../Képek/12.évfolyam/A/Hálózatkezelés/LANIPNetwork.png");
-        $("#title").html("");
+        $("#title").html("Pécsi hálózat");
     }
 });
 
@@ -272,7 +274,7 @@ $('#left').click(function(){
         if(pic == 8){
             $('#pic').attr("src", "../Képek/12.évfolyam/A/Hálózatkezelés/LANIPNetwork.png");
             $('#pPicture').attr("src", "../Képek/12.évfolyam/A/Hálózatkezelés/LANIPNetwork.png");
-            $("#title").html("");
+            $("#title").html("Pécsi hálózat");
         }
         else if(pic == 9){
             $('#pic').attr("src", "../Képek/12.évfolyam/A/Hálózatkezelés/LANWANIP.png");
