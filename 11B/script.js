@@ -33,6 +33,7 @@ $('#prog').click(function(){
     pageStatus = 1;
     pic = 1;
     $('#pic').attr("src", "../Képek/11.évfolyam/B/Programozás alapjai/addingContent.png");
+    $('#pPicture').attr("src", "../Képek/11.évfolyam/B/Programozás alapjai/addingContent.png");
     $('#prog').css('color', 'darkred');
     $('#dig').css('color', 'black');
 });
@@ -41,8 +42,13 @@ $('#dig').click(function(){
     pageStatus = 2;
     pic = 8;
     $('#pic').attr("src", "../Képek/11.évfolyam/B/Digitális áramkörök/AND circuit.png");
+    $('#pPicture').attr("src", "../Képek/11.évfolyam/B/Digitális áramkörök/AND circuit.png");
     $('#dig').css('color', 'darkred');
     $('#prog').css('color', 'black');
+});
+
+$("#pic").click(function(){
+    $("#pPopup").css("display", "flex");
 });
 
 
@@ -53,47 +59,59 @@ $('#right').click(function(){
         pic += 1;
         if(pic == 1){
             $('#pic').attr("src", "../Képek/11.évfolyam/B/Programozás alapjai/addingContent.png");
+            $('#pPicture').attr("src", "../Képek/11.évfolyam/B/Programozás alapjai/addingContent.png");
         }
         else if(pic == 2){
             $('#pic').attr("src", "../Képek/11.évfolyam/B/Programozás alapjai/readingTemplate.png");
+            $('#pPicture').attr("src", "../Képek/11.évfolyam/B/Programozás alapjai/readingTemplate.png");
         }
         else if(pic == 3){
             $('#pic').attr("src", "../Képek/11.évfolyam/B/Programozás alapjai/savingDocument.png");
+            $('#pPicture').attr("src", "../Képek/11.évfolyam/B/Programozás alapjai/savingDocument.png");
             $('#display').css('height', '100px');
         }
         else if(pic == 4){
             $('#pic').attr("src", "../Képek/11.évfolyam/B/Programozás alapjai/template.png");
+            $('#pPicture').attr("src", "../Képek/11.évfolyam/B/Programozás alapjai/template.png");
         }
         else if(pic == 5){
             $('#pic').attr("src", "../Képek/11.évfolyam/B/Programozás alapjai/templateGenerator.png");
+            $('#pPicture').attr("src", "../Képek/11.évfolyam/B/Programozás alapjai/templateGenerator.png");
         }
     }
     else if(pageStatus === 2){
         pic += 1;
         if(pic == 8){
             $('#pic').attr("src", "../Képek/11.évfolyam/B/Digitális áramkörök/AND circuit.png");
+            $('#pPicture').attr("src", "../Képek/11.évfolyam/B/Digitális áramkörök/AND circuit.png");
         }
         else if(pic == 9){
             $('#pic').attr("src", "../Képek/11.évfolyam/B/Digitális áramkörök/OR circuit.png");
+            $('#pPicture').attr("src", "../Képek/11.évfolyam/B/Digitális áramkörök/OR circuit.png");
         }
         else if(pic == 10){
             $('#pic').attr("src", "../Képek/11.évfolyam/B/Digitális áramkörök/truthTable.png");
+            $('#pPicture').attr("src", "../Képek/11.évfolyam/B/Digitális áramkörök/truthTable.png");
         }
         else if(pic == 11){
             $('#pic').attr("src", "../Képek/11.évfolyam/B/Digitális áramkörök/VKdiszjunktív.png");
+            $('#pPicture').attr("src", "../Képek/11.évfolyam/B/Digitális áramkörök/VKdiszjunktív.png");
         }
         else if(pic == 12){
             $('#pic').attr("src", "../Képek/11.évfolyam/B/Digitális áramkörök/VKKonjunktív.png");
+            $('#pPicture').attr("src", "../Képek/11.évfolyam/B/Digitális áramkörök/VKKonjunktív.png");
         }
     }
 
     if(pic == 6){
         pic = 1;
         $('#pic').attr("src", "../Képek/11.évfolyam/B/Programozás alapjai/addingContent.png");
+        $('#pPicture').attr("src", "../Képek/11.évfolyam/B/Programozás alapjai/addingContent.png");
     }
     else if(pic == 13){
         pic = 8;
         $('#pic').attr("src", "../Képek/11.évfolyam/B/Digitális áramkörök/AND circuit.png");
+        $('#pPicture').attr("src", "../Képek/11.évfolyam/B/Digitális áramkörök/AND circuit.png");
     }
 });
 
@@ -107,46 +125,58 @@ $('#left').click(function(){
         pic -= 1;
         if(pic == 1){
             $('#pic').attr("src", "../Képek/11.évfolyam/B/Programozás alapjai/addingContent.png");
+            $('#pPicture').attr("src", "../Képek/11.évfolyam/B/Programozás alapjai/addingContent.png");
         }
         else if(pic == 2){
             $('#pic').attr("src", "../Képek/11.évfolyam/B/Programozás alapjai/readingTemplate.png");
+            $('#pPicture').attr("src", "../Képek/11.évfolyam/B/Programozás alapjai/readingTemplate.png");
         }
         else if(pic == 3){
             $('#pic').attr("src", "../Képek/11.évfolyam/B/Programozás alapjai/savingDocument.png");
+            $('#pPicture').attr("src", "../Képek/11.évfolyam/B/Programozás alapjai/savingDocument.png");
             $('#display').css('height', '100px');
         }
         else if(pic == 4){
             $('#pic').attr("src", "../Képek/11.évfolyam/B/Programozás alapjai/template.png");
+            $('#pPicture').attr("src", "../Képek/11.évfolyam/B/Programozás alapjai/template.png");
         }
         else if(pic == 5){
             $('#pic').attr("src", "../Képek/11.évfolyam/B/Programozás alapjai/templateGenerator.png");
+            $('#pPicture').attr("src", "../Képek/11.évfolyam/B/Programozás alapjai/templateGenerator.png");
         }
     }
     else if(pageStatus === 2){
         pic -= 1;
         if(pic == 8){
             $('#pic').attr("src", "../Képek/11.évfolyam/B/Digitális áramkörök/AND circuit.png");
+            $('#pPicture').attr("src", "../Képek/11.évfolyam/B/Digitális áramkörök/AND circuit.png");
         }
         else if(pic == 9){
             $('#pic').attr("src", "../Képek/11.évfolyam/B/Digitális áramkörök/OR circuit.png");
+            $('#pPicture').attr("src", "../Képek/11.évfolyam/B/Digitális áramkörök/OR circuit.png");
         }
         else if(pic == 10){
             $('#pic').attr("src", "../Képek/11.évfolyam/B/Digitális áramkörök/truthTable.png");
+            $('#pPicture').attr("src", "../Képek/11.évfolyam/B/Digitális áramkörök/truthTable.png");
         }
         else if(pic == 11){
             $('#pic').attr("src", "../Képek/11.évfolyam/B/Digitális áramkörök/VKdiszjunktív.png");
+            $('#pPicture').attr("src", "../Képek/11.évfolyam/B/Digitális áramkörök/VKdiszjunktív.png");
         }
         else if(pic == 12){
             $('#pic').attr("src", "../Képek/11.évfolyam/B/Digitális áramkörök/VKKonjunktív.png");
+            $('#pPicture').attr("src", "../Képek/11.évfolyam/B/Digitális áramkörök/VKKonjunktív.png");
         }
     }
     if(pic == 0){
         pic = 5;
         $('#pic').attr("src", "../Képek/11.évfolyam/B/Programozás alapjai/templateGenerator.png");
+        $('#pPicture').attr("src", "../Képek/11.évfolyam/B/Programozás alapjai/templateGenerator.png");
     }
     else if(pic == 7){
         pic = 12;
         $('#pic').attr("src", "../Képek/11.évfolyam/B/Digitális áramkörök/VKKonjunktív.png");
+        $('#pPicture').attr("src", "../Képek/11.évfolyam/B/Digitális áramkörök/VKKonjunktív.png");
     }
 });
 //Back button
@@ -171,4 +201,8 @@ $('#sR').click(function(){
 
 $('#sPopup').click(function(){
     $('#sPopup').css("display", "none")
+})
+
+$('#pPopup').click(function(){
+    $('#pPopup').css("display", "none")
 })
