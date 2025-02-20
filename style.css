@@ -40,6 +40,7 @@ body{
     font-weight: bolder;
     text-decoration: none;
     color: black;
+    font-size: large;
 }
 
 /*Wiggle Animation*/
@@ -382,9 +383,11 @@ html{
 
 #text{
     text-align: center;
+    font-size: larger;
 }
 
 #aboutMe{
+    font-size: larger;
 }
 
 

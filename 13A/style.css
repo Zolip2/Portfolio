@@ -38,11 +38,20 @@ body{
 .category{
     margin-left: 50px;
     margin-right: 50px;
-    margin-top: 0.8%;
     margin-bottom: auto;
     font-weight: bolder;
     text-decoration: none;
     color: black;
+    margin-bottom: 0%;
+    align-content: center;
+    font-size: large;
+}
+
+#fR{
+    font-size: large;
+}
+#sR{
+    font-size: large;
 }
 
 @keyframes wiggle {
@@ -214,6 +223,7 @@ ul li:hover ul.dropdown{
     align-items: center;
     background-color: rgba(0, 0, 0, 0.4);
     backdrop-filter: blur(10px);
+    overflow-y: scroll;
     
 }
 
