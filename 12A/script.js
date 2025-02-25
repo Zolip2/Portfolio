@@ -45,9 +45,9 @@ $('#data').click(function(){
 $('#hal').click(function(){
     pageStatus = 2;
     pic = 8;
-    $('#pic').attr("src", "../Képek/12.évfolyam/A/Hálózatkezelés/LANIPNetwork.png");
-    $('#pPicture').attr("src", "../Képek/12.évfolyam/A/Hálózatkezelés/LANIPNetwork.png");
-    $("#title").html("Pécsi hálózat");
+    $('#pic').attr("src", "../Képek/12.évfolyam/A/Hálózatkezelés/Kép1.png");
+    $('#pPicture').attr("src", "../Képek/12.évfolyam/A/Hálózatkezelés/Kép1.png");
+    $("#title").html("Egész hálózat");
     $('#hal').css('color', 'darkred');
     $('#data').css('color', 'black');
     $('#display').css('height', '450px');
@@ -129,58 +129,58 @@ $('#right').click(function(){
         pic += 1;
         $('#display').css('height', '450px');
         if(pic == 8){
-            $('#pic').attr("src", "../Képek/12.évfolyam/A/Hálózatkezelés/LANIPNetwork.png");
-            $('#pPicture').attr("src", "../Képek/12.évfolyam/A/Hálózatkezelés/LANIPNetwork.png");
-            $("#title").html("Pécsi hálózat");
+            $('#pic').attr("src", "../Képek/12.évfolyam/A/Hálózatkezelés/Kép1.png");
+            $('#pPicture').attr("src", "../Képek/12.évfolyam/A/Hálózatkezelés/Kép1.png");
+            $("#title").html("Egész hálózat");
         }
         else if(pic == 9){
-            $('#pic').attr("src", "../Képek/12.évfolyam/A/Hálózatkezelés/LANWANIP.png");
-            $('#pPicture').attr("src", "../Képek/12.évfolyam/A/Hálózatkezelés/LANWANIP.png");
-            $("#title").html("");
+            $('#pic').attr("src", "../Képek/12.évfolyam/A/Hálózatkezelés/Kép2.png");
+            $('#pPicture').attr("src", "../Képek/12.évfolyam/A/Hálózatkezelés/Kép2.png");
+            $("#title").html("LAN és WAN adatok");
         }
         else if(pic == 10){
-            $('#pic').attr("src", "../Képek/12.évfolyam/A/Hálózatkezelés/PCIPCode.png");
-            $('#pPicture').attr("src", "../Képek/12.évfolyam/A/Hálózatkezelés/PCIPCode.png");
-            $("#title").html("");
-            $('#display').css('height', '100px');
+            $('#pic').attr("src", "../Képek/12.évfolyam/A/Hálózatkezelés/Kép3.png");
+            $('#pPicture').attr("src", "../Képek/12.évfolyam/A/Hálózatkezelés/Kép3.png");
+            $("#title").html("Pécsi LAN hálózat");
         }
         else if(pic == 11){
-            $('#pic').attr("src", "../Képek/12.évfolyam/A/Hálózatkezelés/RouterIPCode.png");
-            $('#pPicture').attr("src", "../Képek/12.évfolyam/A/Hálózatkezelés/RouterIPCode.png");
-            $("#title").html("");
-            $('#display').css('height', '200px');
+            $('#pic').attr("src", "../Képek/12.évfolyam/A/Hálózatkezelés/Kép5.png");
+            $('#pPicture').attr("src", "../Képek/12.évfolyam/A/Hálózatkezelés/Kép5.png");
+            $("#title").html("WAN hálózat");
+            $('#display').css('height', '300px');
         }
         else if(pic == 12){
-            $('#pic').attr("src", "../Képek/12.évfolyam/A/Hálózatkezelés/SwitchIPCode.png");
-            $('#pPicture').attr("src", "../Képek/12.évfolyam/A/Hálózatkezelés/SwitchIPCode.png");
-            $("#title").html("");
+            $('#pic').attr("src", "../Képek/12.évfolyam/A/Hálózatkezelés/Kép6.png");
+            $('#pPicture').attr("src", "../Képek/12.évfolyam/A/Hálózatkezelés/Kép6.png");
+            $("#title").html("DHCP kód a routerben");
         }
         else if(pic == 13){
-            $('#pic').attr("src", "../Képek/12.évfolyam/A/Hálózatkezelés/WANIPNetwork.png");
-            $('#pPicture').attr("src", "../Képek/12.évfolyam/A/Hálózatkezelés/WANIPNetwork.png");
-            $("#title").html("");
+            $('#pic').attr("src", "../Képek/12.évfolyam/A/Hálózatkezelés/Kép7.png");
+            $('#pPicture').attr("src", "../Képek/12.évfolyam/A/Hálózatkezelés/Kép7.png");
+            $("#title").html("IP beállítása router interfészébe");
+            $('#display').css('height', '200px');
         }
         else if(pic == 14){
-            $('#pic').attr("src", "../Képek/12.évfolyam/A/Hálózatkezelés/WholeNetwork.png");
-            $('#pPicture').attr("src", "../Képek/12.évfolyam/A/Hálózatkezelés/WholeNetwork.png");
-            $("#title").html("");
+            $('#pic').attr("src", "../Képek/12.évfolyam/A/Hálózatkezelés/Kép8.png");
+            $('#pPicture').attr("src", "../Képek/12.évfolyam/A/Hálózatkezelés/Kép8.png");
+            $("#title").html("Home router WiFi beállítása");
+            $('#display').css('height', '200px');
         }
         else if(pic == 15){
-            $('#pic').attr("src", "../Képek/12.évfolyam/A/Hálózatkezelés/WirelessIPCode.png");
-            $('#pPicture').attr("src", "../Képek/12.évfolyam/A/Hálózatkezelés/WirelessIPCode.png");
-            $("#title").html("");
+            $('#pic').attr("src", "../Képek/12.évfolyam/A/Hálózatkezelés/Kép9.png");
+            $('#pPicture').attr("src", "../Képek/12.évfolyam/A/Hálózatkezelés/Kép9.png");
+            $("#title").html("Home router WiFi beállítása");
             $('#display').css('height', '200px');
         }
         else if(pic == 16){
-            $('#pic').attr("src", "../Képek/12.évfolyam/A/Hálózatkezelés/WirelessPasswordCode.png");
-            $('#pPicture').attr("src", "../Képek/12.évfolyam/A/Hálózatkezelés/WirelessPasswordCode.png");
-            $("#title").html("");
-            $('#display').css('height', '200px');
+            $('#pic').attr("src", "../Képek/12.évfolyam/A/Hálózatkezelés/Kép10.png");
+            $('#pPicture').attr("src", "../Képek/12.évfolyam/A/Hálózatkezelés/Kép10.png");
+            $("#title").html("Szerver DHCP beállítása");
         }
         else if(pic == 17){
-            $('#pic').attr("src", "../Képek/12.évfolyam/A/Hálózatkezelés/WirelessSSIDCode.png");
-            $('#pPicture').attr("src", "../Képek/12.évfolyam/A/Hálózatkezelés/WirelessSSIDCode.png");
-            $("#title").html("");
+            $('#pic').attr("src", "../Képek/12.évfolyam/A/Hálózatkezelés/Kép11.png");
+            $('#pPicture').attr("src", "../Képek/12.évfolyam/A/Hálózatkezelés/Kép11.png");
+            $("#title").html("DNS szerver beállítása");
         }
     }
 
@@ -192,9 +192,9 @@ $('#right').click(function(){
     }
     else if(pic == 18 && pageStatus == 2){
         pic = 8;
-        $('#pic').attr("src", "../Képek/12.évfolyam/A/Hálózatkezelés/LANIPNetwork.png");
-        $('#pPicture').attr("src", "../Képek/12.évfolyam/A/Hálózatkezelés/LANIPNetwork.png");
-        $("#title").html("Pécsi hálózat");
+        $('#pic').attr("src", "../Képek/12.évfolyam/A/Hálózatkezelés/Kép1.png");
+        $('#pPicture').attr("src", "../Képek/12.évfolyam/A/Hálózatkezelés/Kép1.png");
+        $("#title").html("Egész hálózat");
     }
 });
 
@@ -272,58 +272,58 @@ $('#left').click(function(){
         pic -= 1;
         $('#display').css('height', '450px');
         if(pic == 8){
-            $('#pic').attr("src", "../Képek/12.évfolyam/A/Hálózatkezelés/LANIPNetwork.png");
-            $('#pPicture').attr("src", "../Képek/12.évfolyam/A/Hálózatkezelés/LANIPNetwork.png");
-            $("#title").html("Pécsi hálózat");
+            $('#pic').attr("src", "../Képek/12.évfolyam/A/Hálózatkezelés/Kép1.png");
+            $('#pPicture').attr("src", "../Képek/12.évfolyam/A/Hálózatkezelés/Kép1.png");
+            $("#title").html("Egész hálózat");
         }
         else if(pic == 9){
-            $('#pic').attr("src", "../Képek/12.évfolyam/A/Hálózatkezelés/LANWANIP.png");
-            $('#pPicture').attr("src", "../Képek/12.évfolyam/A/Hálózatkezelés/LANWANIP.png");
-            $("#title").html("");
+            $('#pic').attr("src", "../Képek/12.évfolyam/A/Hálózatkezelés/Kép2.png");
+            $('#pPicture').attr("src", "../Képek/12.évfolyam/A/Hálózatkezelés/Kép2.png");
+            $("#title").html("LAN és WAN adatok");
         }
         else if(pic == 10){
-            $('#pic').attr("src", "../Képek/12.évfolyam/A/Hálózatkezelés/PCIPCode.png");
-            $('#pPicture').attr("src", "../Képek/12.évfolyam/A/Hálózatkezelés/PCIPCode.png");
-            $("#title").html("");
-            $('#display').css('height', '100px');
+            $('#pic').attr("src", "../Képek/12.évfolyam/A/Hálózatkezelés/Kép3.png");
+            $('#pPicture').attr("src", "../Képek/12.évfolyam/A/Hálózatkezelés/Kép3.png");
+            $("#title").html("Pécsi LAN hálózat");
         }
         else if(pic == 11){
-            $('#pic').attr("src", "../Képek/12.évfolyam/A/Hálózatkezelés/RouterIPCode.png");
-            $('#pPicture').attr("src", "../Képek/12.évfolyam/A/Hálózatkezelés/RouterIPCode.png");
-            $("#title").html("");
-            $('#display').css('height', '200px');
+            $('#pic').attr("src", "../Képek/12.évfolyam/A/Hálózatkezelés/Kép5.png");
+            $('#pPicture').attr("src", "../Képek/12.évfolyam/A/Hálózatkezelés/Kép5.png");
+            $("#title").html("WAN hálózat");
+            $('#display').css('height', '300px');
         }
         else if(pic == 12){
-            $('#pic').attr("src", "../Képek/12.évfolyam/A/Hálózatkezelés/SwitchIPCode.png");
-            $('#pPicture').attr("src", "../Képek/12.évfolyam/A/Hálózatkezelés/SwitchIPCode.png");
-            $("#title").html("");
+            $('#pic').attr("src", "../Képek/12.évfolyam/A/Hálózatkezelés/Kép6.png");
+            $('#pPicture').attr("src", "../Képek/12.évfolyam/A/Hálózatkezelés/Kép6.png");
+            $("#title").html("DHCP kód a routerben");
         }
         else if(pic == 13){
-            $('#pic').attr("src", "../Képek/12.évfolyam/A/Hálózatkezelés/WANIPNetwork.png");
-            $('#pPicture').attr("src", "../Képek/12.évfolyam/A/Hálózatkezelés/WANIPNetwork.png");
-            $("#title").html("");
+            $('#pic').attr("src", "../Képek/12.évfolyam/A/Hálózatkezelés/Kép7.png");
+            $('#pPicture').attr("src", "../Képek/12.évfolyam/A/Hálózatkezelés/Kép7.png");
+            $("#title").html("IP beállítása router interfészébe");
+            $('#display').css('height', '200px');
         }
         else if(pic == 14){
-            $('#pic').attr("src", "../Képek/12.évfolyam/A/Hálózatkezelés/WholeNetwork.png");
-            $('#pPicture').attr("src", "../Képek/12.évfolyam/A/Hálózatkezelés/WholeNetwork.png");
-            $("#title").html("");
+            $('#pic').attr("src", "../Képek/12.évfolyam/A/Hálózatkezelés/Kép8.png");
+            $('#pPicture').attr("src", "../Képek/12.évfolyam/A/Hálózatkezelés/Kép8.png");
+            $("#title").html("Home router WiFi beállítása");
+            $('#display').css('height', '200px');
         }
         else if(pic == 15){
-            $('#pic').attr("src", "../Képek/12.évfolyam/A/Hálózatkezelés/WirelessIPCode.png");
-            $('#pPicture').attr("src", "../Képek/12.évfolyam/A/Hálózatkezelés/WirelessIPCode.png");
-            $("#title").html("");
+            $('#pic').attr("src", "../Képek/12.évfolyam/A/Hálózatkezelés/Kép9.png");
+            $('#pPicture').attr("src", "../Képek/12.évfolyam/A/Hálózatkezelés/Kép9.png");
+            $("#title").html("Home router WiFi beállítása");
             $('#display').css('height', '200px');
         }
         else if(pic == 16){
-            $('#pic').attr("src", "../Képek/12.évfolyam/A/Hálózatkezelés/WirelessPasswordCode.png");
-            $('#pPicture').attr("src", "../Képek/12.évfolyam/A/Hálózatkezelés/WirelessPasswordCode.png");
-            $("#title").html("");
-            $('#display').css('height', '200px');
+            $('#pic').attr("src", "../Képek/12.évfolyam/A/Hálózatkezelés/Kép10.png");
+            $('#pPicture').attr("src", "../Képek/12.évfolyam/A/Hálózatkezelés/Kép10.png");
+            $("#title").html("Szerver DHCP beállítása");
         }
         else if(pic == 17){
-            $('#pic').attr("src", "../Képek/12.évfolyam/A/Hálózatkezelés/WirelessSSIDCode.png");
-            $('#pPicture').attr("src", "../Képek/12.évfolyam/A/Hálózatkezelés/WirelessSSIDCode.png");
-            $("#title").html("");
+            $('#pic').attr("src", "../Képek/12.évfolyam/A/Hálózatkezelés/Kép11.png");
+            $('#pPicture').attr("src", "../Képek/12.évfolyam/A/Hálózatkezelés/Kép11.png");
+            $("#title").html("DNS szerver beállítása");
         }
     }
     if(pic == 0 && pageStatus == 1){
@@ -334,9 +334,9 @@ $('#left').click(function(){
     }
     else if(pic == 7 && pageStatus == 2){
         pic = 17;
-        $('#pic').attr("src", "../Képek/12.évfolyam/A/Hálózatkezelés/WirelessSSIDCode.png");
-        $('#pPicture').attr("src", "../Képek/12.évfolyam/A/Hálózatkezelés/WirelessSSIDCode.png");
-        $("#title").html("");
+        $('#pic').attr("src", "../Képek/12.évfolyam/A/Hálózatkezelés/Kép11.png");
+        $('#pPicture').attr("src", "../Képek/12.évfolyam/A/Hálózatkezelés/Kép11.png");
+        $("#title").html("DNS szerver beállítása");
     }
 });
 //Back button
