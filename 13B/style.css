@@ -202,13 +202,23 @@ ul li:hover ul.dropdown{
 }
 
 #fPopupContent{
-    text-align: center;
     display: flex;
-    width: 50%;
+    width: 60%;
     background:antiquewhite;
     flex-direction: column;
     height: fit-content;
     opacity: 100%;
+    font-size: larger;
+}
+
+#fPopupContent h1{
+    align-self: center;
+}
+
+#fPopupContent li{
+    margin-left: 100px;
+    
+    font-size: larger;
 }
 
 #sPopup{
@@ -226,14 +236,23 @@ ul li:hover ul.dropdown{
 }
 
 #sPopupContent{
-    text-align: center;
     display: flex;
     width: 50%;
     background:antiquewhite;
     flex-direction: column;
     height: fit-content;
     opacity: 100%;
+    font-size: larger;
 }
+
+#sPopupContent h1{
+    align-self: center;
+} 
+
+#sPopupContent li{
+    font-size: larger;
+    margin-left: 100px;
+} 
 
 #pPopup{
     transition-duration: 1s;

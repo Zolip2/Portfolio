@@ -202,13 +202,23 @@ ul li:hover ul.dropdown{
 }
 
 #fPopupContent{
-    text-align: center;
     display: flex;
-    width: 50%;
+    width: 60%;
     background:antiquewhite;
     flex-direction: column;
     height: fit-content;
     opacity: 100%;
+    font-size: larger;
+}
+
+#fPopupContent h1{
+    align-self: center;
+}
+
+#fPopupContent li{
+    margin-left: 100px;
+    
+    font-size: larger;
 }
 
 #pPopup{
