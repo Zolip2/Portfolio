@@ -72,9 +72,9 @@ $('#right').click(function(){
             $("#title").html("Töltöttség mérő");
         }
         else if(pic == 9){
-            $('#pic').attr("src", "../Képek/11.évfolyam/A/Mikrovezérlő programozás/IMG_20250107_194456.jpg");
-            $('#pPicture').attr("src", "../Képek/11.évfolyam/A/Mikrovezérlő programozás/IMG_20250107_194456.jpg");
-            $("#title").html("Töltöttség mérő");
+            $('#pic').attr("src", "../Képek/11.évfolyam/A/Mikrovezérlő programozás/Kép1.png");
+            $('#pPicture').attr("src", "../Képek/11.évfolyam/A/Mikrovezérlő programozás/Kép1.png");
+            $("#title").html("Töltöttség mérő kód");
         }
         else if(pic == 10){
             $('#pic').attr("src", "../Képek/11.évfolyam/A/Mikrovezérlő programozás/IMG_20250107_194528_1.jpg");
@@ -153,9 +153,9 @@ $('#left').click(function(){
             $("#title").html("Töltöttség mérő");
         }
         else if(pic == 9){
-            $('#pic').attr("src", "../Képek/11.évfolyam/A/Mikrovezérlő programozás/IMG_20250107_194456.jpg");
-            $('#pPicture').attr("src", "../Képek/11.évfolyam/A/Mikrovezérlő programozás/IMG_20250107_194456.jpg");
-            $("#title").html("Töltöttség mérő");
+            $('#pic').attr("src", "../Képek/11.évfolyam/A/Mikrovezérlő programozás/Kép1.png");
+            $('#pPicture').attr("src", "../Képek/11.évfolyam/A/Mikrovezérlő programozás/Kép1.png");
+            $("#title").html("Töltöttség mérő kód");
         }
         else if(pic == 10){
             $('#pic').attr("src", "../Képek/11.évfolyam/A/Mikrovezérlő programozás/IMG_20250107_194528_1.jpg");
