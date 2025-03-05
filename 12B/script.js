@@ -52,7 +52,7 @@ $('#szim').click(function(){
     $('#szim').css('color', 'darkred');
     $('#plc').css('color', 'black');
     $('#display').css('height', '450px');
-    $("#source").html("Forrás: Wikipédia; Időpont");
+    $("#source").html("Forrás: Wikipédia; ");
     $("#source").attr("href", "https://hu.wikipedia.org/wiki/555-ös_időzítő_IC");
 });
 
@@ -121,14 +121,14 @@ $('#right').click(function(){
             $('#pic').attr("src", "../Képek/12.évfolyam/B/Számítógépes szimuláció/555.jpg");
             $('#pPicture').attr("src", "../Képek/12.évfolyam/B/Számítógépes szimuláció/555.jpg");
             $("#title").html("NE555 időzítő");
-            $("#source").html("Forrás: Wikipédia; Időpont");
+            $("#source").html("Forrás: Wikipédia; ");
             $("#source").attr("href", "https://hu.wikipedia.org/wiki/555-ös_időzítő_IC");
         }
         else if(pic == 9){
             $('#pic').attr("src", "../Képek/12.évfolyam/B/Számítógépes szimuláció/555cucc.png");
             $('#pPicture').attr("src", "../Képek/12.évfolyam/B/Számítógépes szimuláció/555cucc.png");
             $("#title").html("NE555 áramköre");
-            $("#source").html("Forrás: Wikimedia Commons; Időpont");
+            $("#source").html("Forrás: Wikimedia Commons; ");
             $("#source").attr("href", "https://commons.wikimedia.org/wiki/File:NE555_Bloc_Diagram.svg");
         }
         else if(pic == 10){
@@ -154,7 +154,7 @@ $('#right').click(function(){
         $('#pic').attr("src", "../Képek/12.évfolyam/B/Számítógépes szimuláció/555.jpg");
         $('#pPicture').attr("src", "../Képek/12.évfolyam/B/Számítógépes szimuláció/555.jpg");
         $("#title").html("NE555 időzítő");
-        $("#source").html("Forrás: Wikipédia; Időpont");
+        $("#source").html("Forrás: Wikipédia; ");
         $("#source").attr("href", "https://hu.wikipedia.org/wiki/555-ös_időzítő_IC");
     }
 });
@@ -222,14 +222,14 @@ $('#left').click(function(){
             $('#pic').attr("src", "../Képek/12.évfolyam/B/Számítógépes szimuláció/555.jpg");
             $('#pPicture').attr("src", "../Képek/12.évfolyam/B/Számítógépes szimuláció/555.jpg");
             $("#title").html("NE555 időzítő");
-            $("#source").html("Forrás: Wikipédia; Időpont");
+            $("#source").html("Forrás: Wikipédia; ");
             $("#source").attr("href", "https://hu.wikipedia.org/wiki/555-ös_időzítő_IC");
         }
         else if(pic == 9){
             $('#pic').attr("src", "../Képek/12.évfolyam/B/Számítógépes szimuláció/555cucc.png");
             $('#pPicture').attr("src", "../Képek/12.évfolyam/B/Számítógépes szimuláció/555cucc.png");
             $("#title").html("NE555 áramköre");
-            $("#source").html("Forrás: Wikimedia Commons; Időpont")
+            $("#source").html("Forrás: Wikimedia Commons; ")
             $("#source").attr("href", "https://commons.wikimedia.org/wiki/File:NE555_Bloc_Diagram.svg");
         }
         else if(pic == 10){
