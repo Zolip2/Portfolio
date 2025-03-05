@@ -40,6 +40,7 @@ $('#plc').click(function(){
     $('#plc').css('color', 'darkred');
     $('#szim').css('color', 'black');
     $('#display').css('height', '450px');
+    $("#source").html("")
 });
 
 $('#szim').click(function(){
@@ -51,6 +52,8 @@ $('#szim').click(function(){
     $('#szim').css('color', 'darkred');
     $('#plc').css('color', 'black');
     $('#display').css('height', '450px');
+    $("#source").html("Forrás: Wikipédia; Időpont");
+    $("#source").attr("href", "https://hu.wikipedia.org/wiki/555-ös_időzítő_IC");
 });
 
 $("#pic").click(function(){
@@ -63,6 +66,7 @@ $('#right').click(function(){
         console.log(pageStatus);
         pic += 1;
         $('#display').css('height', '450px');
+        $("#source").html("")
         if(pic == 1){
             $('#pic').attr("src", "../Képek/12.évfolyam/B/PLC programozás/code1.png");
             $('#pPicture').attr("src", "../Képek/12.évfolyam/B/PLC programozás/code1.png");
@@ -112,15 +116,20 @@ $('#right').click(function(){
     else if(pageStatus === 2){
         pic += 1;
         $('#display').css('height', '450px');
+        $("#source").html("")
         if(pic == 8){
             $('#pic').attr("src", "../Képek/12.évfolyam/B/Számítógépes szimuláció/555.jpg");
             $('#pPicture').attr("src", "../Képek/12.évfolyam/B/Számítógépes szimuláció/555.jpg");
             $("#title").html("NE555 időzítő");
+            $("#source").html("Forrás: Wikipédia; Időpont");
+            $("#source").attr("href", "https://hu.wikipedia.org/wiki/555-ös_időzítő_IC");
         }
         else if(pic == 9){
             $('#pic').attr("src", "../Képek/12.évfolyam/B/Számítógépes szimuláció/555cucc.png");
             $('#pPicture').attr("src", "../Képek/12.évfolyam/B/Számítógépes szimuláció/555cucc.png");
             $("#title").html("NE555 áramköre");
+            $("#source").html("Forrás: Wikimedia Commons; Időpont");
+            $("#source").attr("href", "https://commons.wikimedia.org/wiki/File:NE555_Bloc_Diagram.svg");
         }
         else if(pic == 10){
             $('#pic').attr("src", "../Képek/12.évfolyam/B/Számítógépes szimuláció/circuit.png");
@@ -145,6 +154,8 @@ $('#right').click(function(){
         $('#pic').attr("src", "../Képek/12.évfolyam/B/Számítógépes szimuláció/555.jpg");
         $('#pPicture').attr("src", "../Képek/12.évfolyam/B/Számítógépes szimuláció/555.jpg");
         $("#title").html("NE555 időzítő");
+        $("#source").html("Forrás: Wikipédia; Időpont");
+        $("#source").attr("href", "https://hu.wikipedia.org/wiki/555-ös_időzítő_IC");
     }
 });
 
@@ -156,6 +167,7 @@ $('#left').click(function(){
         console.log(pageStatus);
         pic -= 1;
         $('#display').css('height', '450px');
+        $("#source").html("")
         if(pic == 1){
             $('#pic').attr("src", "../Képek/12.évfolyam/B/PLC programozás/code1.png");
             $('#pPicture').attr("src", "../Képek/12.évfolyam/B/PLC programozás/code1.png");
@@ -205,15 +217,20 @@ $('#left').click(function(){
     else if(pageStatus === 2){
         pic -= 1;
         $('#display').css('height', '450px');
+        $("#source").html("")
         if(pic == 8){
             $('#pic').attr("src", "../Képek/12.évfolyam/B/Számítógépes szimuláció/555.jpg");
             $('#pPicture').attr("src", "../Képek/12.évfolyam/B/Számítógépes szimuláció/555.jpg");
             $("#title").html("NE555 időzítő");
+            $("#source").html("Forrás: Wikipédia; Időpont");
+            $("#source").attr("href", "https://hu.wikipedia.org/wiki/555-ös_időzítő_IC");
         }
         else if(pic == 9){
             $('#pic').attr("src", "../Képek/12.évfolyam/B/Számítógépes szimuláció/555cucc.png");
             $('#pPicture').attr("src", "../Képek/12.évfolyam/B/Számítógépes szimuláció/555cucc.png");
             $("#title").html("NE555 áramköre");
+            $("#source").html("Forrás: Wikimedia Commons; Időpont")
+            $("#source").attr("href", "https://commons.wikimedia.org/wiki/File:NE555_Bloc_Diagram.svg");
         }
         else if(pic == 10){
             $('#pic').attr("src", "../Képek/12.évfolyam/B/Számítógépes szimuláció/circuit.png");
